@@ -1,0 +1,19 @@
+.download-button {
+    /* Add styling for the button here */
+    background-color: #0077c9;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .download-button:hover {
+    /* Add styling for the button when it is hovered over */
+    background-color: #005da9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

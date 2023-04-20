@@ -1,0 +1,79 @@
+.project {
+  /* Add a drop shadow effect to the project cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  height: 600px; /* Increase the height of the project cards */
+  width: 1200px; /* Increase the width of the project cards */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.project:hover {
+  transform: scale(1.1);
+}
+
+.project-title {
+  color: #005da9;
+  font-size: 24px; /* Increase the font size of the project title */
+  font-weight: 600;
+  margin: auto;
+}
+
+.project-description {
+  font-size: 20px; /* Increase the font size of the project description */
+  margin-top: 10px;
+}
+
+.project-image {
+  /* Make the project images bigger */
+  width: 80%;
+  height: 90%;
+  object-fit: cover;
+}
+  
+  .project-info {
+    margin-left: 20px;
+    flex: 1; /* Take up 1/2 of the available space */
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #777;
+  }
+
+  
+.info-container {
+  flex: 1; /* Take up 1/2 of the available space */
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 480px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+
+@media (min-width: 480px) {
+  .project {
+    width: 800px;
+  }
+}

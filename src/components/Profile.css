@@ -1,0 +1,66 @@
+.project {
+  /* other styles */
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.project:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.project-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 20px;
+}
+
+.social-logo {
+  height: 32px;
+  width: 32px;
+}
+
+.profile-container {
+  display: flex;
+}
+
+.photo-container {
+  width: 20%; /* Set the width of the photo container to 20% */
+  text-align: center;
+}
+
+.photo-container img {
+  width: 80%; /* Set the width of the photo to 80% */
+}
+
+.info-container {
+  width: 80%; /* Set the width of the info container to 80% */
+}
+
+/* Add a media query for screens with a width less than or equal to 480px */
+@media (max-width: 480px) {
+  .photo-container {
+    width: 100%; /* Set the width of the photo container to 100% */
+  }
+
+  .photo-container img {
+    width: 100%; /* Set the width of the photo to 100% */
+  }
+
+  .info-container {
+    width: 100%; /* Set the width of the info container to 100% */
+  }
+}
+
+
+

@@ -1,0 +1,29 @@
+.footer {
+  background-color: rgb(0, 93, 169); /* Use the same blue color as the rest of the website */
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  padding: 30px;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact-info{
+  font-size: 24px;
+}
