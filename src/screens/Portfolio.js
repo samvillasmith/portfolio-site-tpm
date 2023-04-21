@@ -71,7 +71,7 @@ const Portfolio = () => {
         <GenericButton handleJump={handleJumpToContact} genericText="Contact" />
       </div>
 
-      <h2 style={{ paddingTop: '10x', paddingBottom: '15px'}}>
+      <h2 style={{ paddingTop: '50x', paddingBottom: '15px', marginTop: '50px'}}>
         Recent Products, Projects, and Accomplishments
       </h2>
       <div className="project-container" style={{marginTop: '-100px', paddingLeft: '-100px'}}>
